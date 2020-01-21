@@ -1,0 +1,348 @@
+/* -----------------整体-----start-------------------------- */
+			html{  
+				overflow-x: hidden;  
+				overflow-y: auto;  
+			}
+			body{
+				width: 100vw;  
+				overflow: hidden;  
+				padding-left: calc(100vw - 100%);
+				background: white;
+			}
+			*{ margin:0px; padding:0px;}
+/* -----------------整体-----end--------------------------- */
+/* -------------------菜单栏-----start-------------------- */
+			.up{
+				position: absolute;
+				background: white;
+				height:50px;
+				width:1535px;
+			}
+			.logo{
+					margin: 0 0 0 200px;
+					width: 100px;
+					height:40px;
+					font-size: 25px;
+					padding-top: 10px;
+					float: left;
+					font-family: "arial rounded mt bold";
+					position: absolute;
+				}
+			.logo a{
+					text-decoration:none; 
+					color: #000000;
+				}
+			.logo a:hover{
+					color:sandybrown ;
+				}
+			  
+				#nav{ width:780px; height:30px; margin:0 auto; background:white; padding-top: 20px;padding-left: 30px;}
+				#nav ul{ list-style:none;}  
+				#nav ul li{ float:left; line-height:30px; text-align:center; position:relative;}  
+				#nav ul li a{ text-decoration:none; color:black;font-family: "book antiqua"; display:block;padding:0px 10px;}  
+				#nav ul li a:hover{ color:white; background:black}   
+				#nav ul li ul{ position:absolute; display:none;}  
+				#nav ul li ul li{ float:none; line-height:30px; text-align:left;}  
+				#nav ul li ul li a{ width:100%;}  
+				#nav ul li ul li a:hover{ background-color:sandybrown;}  
+				#nav ul li:hover ul{ display:block} 
+/* -------------------菜单栏-----end---------------------- */
+/*-----------------标题字--NEW--PRODUCT -----start-----------*/
+			.big{
+				width: 1300px;
+				height: 196px;
+				margin:0 auto;
+				padding-top:70px;
+				color:black;
+				/* float: left; */
+				background:white;
+				font-size:120px;
+				text-align: center;
+				text-shadow:  3px 3px 2px sandybrown;
+			}
+/*-----------------标题字--NEW--PRODUCT -----end------------*/
+/*-----------------中间大盒子 -----start--------------------*/
+			.big2{
+				width: 1300px;
+				height: 1000px;
+				margin: 0 auto;
+				border: sandybrown 10px thick;
+				float: none;
+				/* background: green; */
+			}
+		/*---------中间左边盒子 -----start----------*/
+			.big21{
+				width:150px;
+				height:900px;
+				/* background: navajowhite; */
+				float: left;
+			}
+			.big2left{
+				margin-top: 10px;
+				width: 152px;
+				height:280px;
+				/* background: khaki; */
+				border: sandybrown 1px solid;
+			}
+			.big2left1{
+				list-style: none;
+				background:sandybrown;
+				height: 34px;
+				padding-top: 6px;
+				color: dimgrey;
+				font-weight: bold;
+				text-align: center;
+			}
+			.big2left2{
+				list-style: none;
+				display: block;
+				line-height:40px;
+				text-align:center;
+			}
+			.big2left2 a{
+				text-decoration:none; 
+				color:black;
+				display:block;
+			}
+			.big2left2 a:hover{
+				background: sandybrown;
+				line-height:40px;
+			}
+		/*---------中间左边大盒子 -----end----------*/
+		/*---------中间右边大盒子 -----start----------*/
+			.big2right{
+				margin-top: 10px;
+				border: sandybrown 1px solid;
+				width: 1138px;
+				height: 863px;
+				/* background: paleturquoise; */
+				float:right;
+				position:relative;
+			}
+			.big2right img{
+				width: 1138px;
+				height: 863px;
+				}
+			.bigright2{
+				float: right;
+				width: 875px;
+				height: 300px;
+				padding-top: 5px;
+				padding-left: 5px;
+				/* background: darkgreen; */
+			}
+		/*---------中间右边大盒子 -----end----------*/
+		/*-----------图片阴影效果-----start-------*/
+			.down{
+				float:left;
+				width:1300px ;
+				height: 100px;
+				text-align: center;
+				font-size:30px ;
+				/* background:navy; */
+				padding-top: 50px;
+				text-shadow:  3px 3px 2px sandybrown;
+			}
+			.down2{
+				width: 1300px;
+				height: 550px;
+				/* padding-left: 30px; */
+				/* background:black; */
+				float: left;
+			}
+			.down2p{
+					margin:30px;
+					width:350px;
+					height:350px;
+					/* background-color: lightgray; */
+					color:black;
+					text-align:center;
+					line-height:100px;
+					float:left;
+			}
+			.down2p:hover{
+						transform:scale(1.06);
+						-ms-transform:scale(1.06); 
+						-moz-transform:scale(1.06); 
+						-webkit-transform:scale(1.06); 
+						-o-transform:scale(1.1);
+						-moz-box-shadow: 5px 5px 4px #888888; 
+						box-shadow: 5px 5px 4px #888888;
+						}
+			.down2p a{
+				text-decoration:none;
+					}	
+			.down2p a:hover{
+				color: red;
+			}
+		/*-----------图片阴影效果------end-------*/
+		/*-----------图片放大效果------start-------*/
+		.img2{
+			width: 1300px;
+			height: 500px;
+			/* background-color: aqua; */
+			/* position: absolute; */
+			float: left;
+		}
+		.test_a {  
+		    display: sandybrown;
+		    width:400px;
+		    overflow: hidden;
+			/* background: darkcyan; */
+			float: left;
+			margin-left: 20px;
+		}
+		  
+		.test_a img {  
+		    width: 100%;  
+		    transform: scale(1);  
+		    transition: all 1s ease 0s;
+		}  
+		
+		.test_a:hover img {  
+		    transform: scale(1.1);
+		    transition: all 1s ease 0s;
+		}  
+		.text{
+			width: 400px;
+			height: 90px;
+			margin-left: 20px;
+			padding-top: 10px;
+			float: left;
+			/* background: blue; */
+			text-align: center;
+			
+			
+			/* font-family: "bodoni mt"; */
+		}
+		.a2{
+			font-family:"microsoft yahei";
+			color: black;
+			font-size: 15px;
+		}
+		.a1{
+			color: #000000;
+			font-size: 25px;
+		}
+		/* .text a{
+			text-decoration:none;
+			color: red;
+		}
+		.text a:hover{
+			color:sandybrown;
+		} */
+		/*-----------图片放大效果------end-------*/
+/*-----------------中间大盒子------end--------------------*/
+/*-----------------footer大盒子------start--------------------*/
+			#down111{
+				width: 1535px;
+				height:575px ;
+				background-color:white;
+			}
+			#down211{
+				width: 800px;
+				height:100px ;
+				padding-left:300px;
+				/* background: pink; */
+				float: left;
+			}
+			#ll{
+				margin-top:5 px;
+				width: 300px;
+				height: 570px;
+				float: left;
+				background-color: white;
+			}
+			#mm{
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#rr {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#tt {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#yy {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#uu{
+				padding-left: 150px;
+				width: 360px;
+				height: 300px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#mm ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#rr ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#tt ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#yy ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#mm ul li a{
+				text-decoration: none;	
+			}
+			#rr ul li a{
+				text-decoration: none;	
+			}
+			#tt ul li a{
+				text-decoration: none;	
+			}
+			#yy ul li a{
+				text-decoration: none;	
+			}
+			#mm ul li a{color: black;}
+			#rr ul li a{color: black;}
+			#yy ul li a{color: black;}
+			#tt ul li a{color: black;}
+			#mm ul li a:hover{ color: sandybrown;}
+			#rr ul li a:hover{ color: sandybrown;}
+			#yy ul li a:hover{ color: sandybrown;}
+			#tt ul li a:hover{ color: sandybrown;}
+			.dosi{
+				color:darkgray;
+			}
+			.dosi a{
+				text-decoration: none;
+				color:darkgrey;
+			}
+/*-----------------中间大盒子------end--------------------*/
+			

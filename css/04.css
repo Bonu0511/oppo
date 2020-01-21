@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; list-style:none; outline:none;}
+.banner{
+    width:1535px;
+    height:812px;
+    margin:10px auto;
+    position:relative;
+    overflow: hidden;
+	/* background:blue; */
+}
+.banner .banner_pic .pic{display:none;}
+.banner .banner_pic .current{display:block;}
+.banner ol{
+    position:absolute;
+    left:670px;
+    top:625px;
+}
+.banner ol .but{
+    float:left;
+    width:50px;
+    height:10px;
+    border:1px solid #eee;
+    margin-right:20px;
+}
+.banner ol li{cursor:pointer;}
+.banner ol .current{
+    background:sandybrown;
+    float:left;
+    width:50px;
+    height:10px;
+    border:1px solid sandybrown;
+    margin-right:20px;
+}
+

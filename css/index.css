@@ -1,0 +1,185 @@
+/* -----------------整体-----start-------------------------- */
+			html{  
+				overflow-x: hidden;  
+				overflow-y: auto;  
+			} 
+			body{
+				width: 100vw;  
+				overflow: hidden;  
+				padding-left: calc(100vw - 100%);
+				background: white;
+			}
+/* ----------------整体-----end------------------------- */
+/* -------------------菜单栏-----start-------------------- */
+			.up{
+				position: relative
+				/* background: white; */
+				height:50px;
+				width:1535px;
+			}
+			.logo{
+				margin: 0 0 0 200px;
+				width: 100px;
+				height:40px;
+				font-size: 25px;
+				padding-top: 10px;
+				float: left;
+				font-family: "arial rounded mt bold";
+				position: absolute;
+				color: #000000;
+			}
+			.logo a{
+				text-decoration:none; 
+				color: #000000;
+			}
+			.logo a:hover{
+				color:sandybrown ;
+			}
+			*{ margin:0px; padding:0px;}  
+			#nav{ width:780px; height:30px; margin:0 auto; padding-top: 20px;padding-left: 30px;}
+			#nav ul{ list-style:none;}  
+			#nav ul li{ float:left; line-height:30px; text-align:center; position:relative;}  
+			#nav ul li a{ text-decoration:none; color:black;font-family: "book antiqua"; display:block;padding:0px 10px;}  
+			#nav ul li a:hover{ color:white; background:sandybrown}   
+			#nav ul li ul{ position:absolute; display:none;}  
+			#nav ul li ul li{ float:none; line-height:30px; text-align:left;}  
+			#nav ul li ul li a{ width:100%;}  
+			#nav ul li ul li a:hover{ background-color:sandybrown;}  
+			#nav ul li:hover ul{ display:block} 
+/* -------------------菜单栏-----end-------------------- */
+/* ------------------------最底下字的格式start-------------------- */
+			.dosi{
+				color:darkgray;
+			}
+			.dosi a{
+				text-decoration: none;
+				color:darkgrey;
+			}
+/* ------------------------最底下字的格式end-------------------- */
+/* ------------------------footer----start-------------------- */
+			#down{
+				width: 1535px;
+				height:575px;
+				background-color:white;
+			}
+			#down2{
+				width: 800px;
+				height:100px;
+				padding-left:300px;
+				/* background: salmon; */
+				float: left;
+			}
+			#ll{
+				margin-top:5 px;
+				width: 300px;
+				height: 570px;
+				float: left;
+				background-color: white;
+			}
+			#mm{
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#rr {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#tt {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#yy {
+				color: black;
+				margin-top:5 px;
+				width: 180px;
+				height: 570px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#uu{
+				padding-left: 150px;
+				width: 360px;
+				height: 300px;
+				float: left;
+				background-color:white;
+				font-family: "arial rounded mt bold";
+			}
+			#mm ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#rr ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#tt ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#yy ul{
+				list-style: none;
+				font-size: 20px;
+				line-height: 50px;
+			}
+			#mm ul li a{
+				text-decoration: none;	
+			}
+			#rr ul li a{
+				text-decoration: none;	
+			}
+			#tt ul li a{
+				text-decoration: none;	
+			}
+			#yy ul li a{
+				text-decoration: none;
+			}
+			#mm ul li a{color: black;}
+			#rr ul li a{color: black;}
+			#yy ul li a{color: black;}
+			#tt ul li a{color: black;}
+			#mm ul li a:hover{ color: grey;}
+			#rr ul li a:hover{ color: grey;}
+			#yy ul li a:hover{ color: grey;}
+			#tt ul li a:hover{ color: grey;}
+/* ------------------------footer----end-------------------- */
+/* ------------------------一张大图片---start----------------- */
+			#im{
+				width:1535px;
+				height:666px;
+				background: #000000;
+				margin-bottom: 10px;
+			}
+			#im img{
+				width: 1535px;
+			}
+/* ------------------------大图片---end----------------------- */
+/* ------------------------下面四张图片---start----------------- */
+			#mid{
+				width: 1535px;
+				height: 754px;
+				float: left;
+				background: white;
+			}
+			#mid img{
+				width: 765px;
+			}
+/* ------------------------下面四张图片---end----------------- */
